@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/index';
 
@@ -6,12 +5,11 @@ const App = () => {
  
   return (
     <div>
-      <div>
+      <div className="App">
       <Navbar/>
-     
       <h1>Annie's Skincare</h1>
       <nav>
-        <ul >
+        <ul id="nav-links" >
             <li><a href="App.js">Home</a></li>
             <li><a href="#menu" >Menu</a>
                 <ul class="submenu">
@@ -32,6 +30,4 @@ const App = () => {
   );
 }
    
-
-
 export default App;
