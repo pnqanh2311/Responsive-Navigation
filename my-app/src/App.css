@@ -44,15 +44,16 @@
 }
 body{
   font-family: Verdana,Arial,Helvetica,sans-serif;
+  background-color: #efede1;
 
 }
 h1{
   color: #424442;
-  font-family: 'Helvetica', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Helvetica', Impact, 'Arial Narrow Bold', sans-serif;
 }
 h2{
   color: #424442;
-  font-family: 'Helvetica', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Helvetica', Impact,  'Arial Narrow Bold', sans-serif;
 }
 p{
   font-family:  Helvetica, sans-serif;
@@ -72,7 +73,7 @@ nav ul{
 }
 nav ul li{
 
-  color:white;
+  color:#efede1;
   display:block;
   float:left;
   padding:1rem;
@@ -81,7 +82,7 @@ nav ul li{
 }
 nav li a{
 text-decoration: none;
-color:beige;
+color:#efede1;
 
 }
 nav li a:hover{
